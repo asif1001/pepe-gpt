@@ -13,13 +13,14 @@ body {
 }
 
 .logo {
-    width: 120px;  /* Adjusted size for better appearance */
-    height: 120px; /* Keep aspect ratio */
+    width: 96px;  /* 80% of previous 120px */
+    height: 96px; /* Maintain aspect ratio */
     display: block;
-    margin: 0 auto 20px;
-    border-radius: 50%;  /* Makes the image round */
-    box-shadow: 0px 0px 15px rgba(0, 255, 153, 0.5); /* Green glow effect */
+    margin: 0 auto 15px;
+    border-radius: 50%;  /* Keeps it circular */
+    box-shadow: 0px 0px 10px rgba(0, 255, 153, 0.4); /* Subtle green glow */
 }
+
 
 
 .hero {
